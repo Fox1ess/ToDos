@@ -1,0 +1,426 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <link href="css/all.css" rel="stylesheet"  media="all" type="text/css" />
+    <title>手机购物</title>
+
+    <style>
+        header{width:100%; height:180px;}
+        a{ text-decoration:none; color:#000}
+        body{  margin:0 auto; line-height:21px; background: #ddfbe3
+        }
+        .center{ width:1100px;margin:100px auto 0}
+        .DaoHangLan {
+            width: 100%;
+            height: 50px;
+            background: rgba(44, 143, 234, 1);
+        }
+        .DaoHang {
+            width: 360px;
+            height: 50px;
+            position: relative;
+            margin :0 auto 0;
+        }
+        .DaoHang ul li {
+            list-style: none; /* 去掉小圆点 */
+        }
+
+        .DaoHang ul a {
+            text-decoration: none; /* 去掉下划线 */
+        }
+
+        .DaoHang ul li { /*一级菜单的样式 */
+            float: left;
+            width: 100px;
+            height: 50px;
+            line-height: 50px; /* 行高等于高使文字垂直居中 */
+            text-align: center;
+            background: rgba(44, 143, 234, 1);
+            font-size: 20px; /*字体大小*/
+           }
+        .DaoHang ul li:hover {
+            background-color: rgb(35, 107, 174); /* 鼠标经过时显示的背景颜色 */
+        }
+        .DaoHang li{
+            margin:0 auto 0
+        }
+
+.logo{position: center;width: 100%; height:250px;margin:10px auto 0;}
+        .main1{height:540px;width:530px;display: inline-block;}
+        .main2{height:540px;width:530px;display: inline-block;}
+
+
+
+         .main1phone {
+             position: relative;
+             width: 300px;
+             height: 400px;
+             margin: 0 auto
+         }
+
+        .main1phone img {
+            width: 100%;
+            height: 100%;
+            transition: opacity 0.3s ease;
+        }
+
+        .main1phone:hover img {
+            opacity: 0;
+        }
+
+        .main1phone:hover:after {
+            content: "";
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background-image: url("images/aphone2.jpg");
+            background-position: 0 0;
+            opacity: 1;
+        }
+
+        .main2phone {
+            position: relative;
+            width: 300px;
+            height: 400px;
+            margin: 0 auto
+        }
+
+        .main2phone img {
+            width: 100%;
+            height: 100%;
+            transition: opacity 0.3s ease;
+        }
+
+        .main2phone:hover img {
+            opacity: 0;
+        }
+
+        .main2phone:hover:after {
+            content: "";
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background-image: url("images/iphone2.jpg");
+            background-position: 0 0;
+            opacity: 1;
+        }
+
+        .totop {
+            display: none;
+            position: fixed;
+            bottom: 100px;
+            right: 50px;
+            width: 50px;
+            height: 50px;
+            font-size: 10px;
+            text-align: center;
+            line-height: 100px;
+            z-index: 1;
+
+        }
+        .totop:hover {
+            cursor: pointer;
+            color: #fff;
+        }
+
+        .contact:hover {
+            cursor: pointer;
+        }
+
+
+    </style>
+</head>
+<body>
+<header class=" ">
+        <div class="logo" style="text-align: center;font-size: 40px;">
+            <div><img src="images/banner0.jpg" alt="" style="position: relative;float: top;width: 100%;height: 200px;flex: border-box">
+                <div style="width: 100%;height: 50px;position:absolute  ;top: 35px;flex: border-box;font-size: 80px">
+                    <strong>手机主题网站</strong>
+                </div>
+                <div class="DaoHangLan" style="z-index: 2;position: relative;flex: border-box;bottom: 40px">
+                    <div class="DaoHang">
+
+                        <ul>
+                            <li style=" width: 1px;height: 30px;background: #cccacc;margin: 9px 1px 0;"></li>
+                            <li style="font-size: 15px"><a href="index.html"><strong>首页</strong></a></li>
+                            <li style=" width: 1px;height: 30px;background: #cccacc;margin: 9px 1px 0;"></li>
+                            <li style="font-size: 15px"><a href="web1.html"><strong>安卓手机</strong></a></li>
+                            <li style=" width: 1px;height: 30px;background: #cccacc;margin: 9px 1px 0;"></li>
+                            <li style="font-size: 15px"><a href="web2.html"><strong>苹果手机</strong></a></li>
+                            <li style=" width: 1px;height: 30px;background: #cccacc;margin: 9px 1px 0;"></li>
+                        </ul>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+<div class=" center">
+        <div class="main" style="width: 100%;height: 550px">
+           <div class="main1">
+               <div style="text-align: center;"><strong>安卓手机</strong></div>
+               <div class="main1phone"><img class="" src="images/aphone1.jpg" alt="" style="width: 300px;height: 400px;background-position: 0 0 "></div>
+
+           </div>
+            <div class="main2">
+                <div style="text-align: center"><strong>苹果手机</strong></div>
+                <div class="main2phone"><img src="images/iphone1.jpg" alt="" style="width: 300px;height: 400px;background-position: 0 0"></div>
+
+            </div>
+    </div>
+</div>
+
+<div class="wenzi">
+    <p3>手机参数配置</p3>
+</div>
+<div class="jieshao">
+    <p class="miaoxie">
+    <ul>
+        <li  style="font-size: 15px">
+            1，CPU相当手机的大脑，有核心运算能力。强劲的CPU可以为手机带来更高的运算能力，也会增加手机玩游戏看电影的速度体验。CPU主要参数有核心数和主频，当然，这些参数也不是越大越好，合理够用即可，因为多核心高主频也意味着更耗电。
+        </li> <br><hr>
+        <li  style="font-size: 15px">
+            2，应用程序安装在这里面越大越好。它在智能手机的作用类似于电脑上的“内存条”，比如在智能手机上实现多任务处理、粘贴和复制、运行大型游戏程序等就非常依 赖RAM内存，通常以MB为单位来表示RAM内存的大小，
+        </li> <br><hr>
+        <li  style="font-size: 15px">
+            3，手机的屏幕材质有很多种，屏幕最重要的参数可能就是分辨率了，现在大部分手机屏幕分辨率都能做到720p(1280X720)，大部分旗舰机都做到了1080p(1920X1080)，显示效果非常细腻。
+        </li> <br><hr>
+        <li  style="font-size: 15px">
+            4，RAM：随机存储器random access memory的简称。存储单元的内容可按需随意取出或存入，且存取的速度与存储单元的位置无关的存储器。这种存储器在断电时将丢失其存储内容，故主要用于存储短时间使用的程序。
+        </li> <br><hr>
+    </ul>
+    </p>
+
+    <div style="width: 356px;height: 317px;position: relative;display: inline-block; ;left: 100px;margin: 20px 0 0 0; overflow: hidden">
+        <div id="uDiv" class="richContent richContent0" style="font-size: 18px; position: absolute; height: 2356px; top: -982px;">
+            <p style="text-align:center;line-height:2.1em;">
+                <span style="font-size:18px;">最新</span>
+                <span style="color:#2C8FEA;font-size:18px;">李小姐 131****1256</span>
+                <span style="font-size:18px;">发起咨询</span></p>
+            <p style="text-align:center;line-height:2.1em;"><span style="font-size:18px;">最新</span><span style="color:#2C8FEA;font-size:18px;">王女士 131****1554</span><span style="font-size:18px;">发起咨询</span>
+            </p>
+            <p style="text-align:center;line-height:2.1em;"><span style="font-size:18px;">最新</span><span style="color:#2C8FEA;font-size:18px;">沈先生 158****1956</span><span style="font-size:18px;">发起咨询</span>
+            </p>
+            <p style="text-align:center;line-height:2.1em;"><span style="font-size:18px;">最新</span><span style="color:#2C8FEA;font-size:18px;">苏女士 180****1456</span><span style="font-size:18px;">发起咨询</span>
+            </p>
+            <p style="text-align:center;line-height:2.1em;"><span style="font-size:18px;">最新</span><span style="color:#2C8FEA;font-size:18px;">宋先生 180****2356</span><span style="font-size:18px;">发起咨询</span>
+            </p>
+            <p style="text-align:center;line-height:2.1em;"><span style="font-size:18px;">最新</span><span style="color:#2C8FEA;font-size:18px;">何先生 150****4526</span><span style="font-size:18px;">发起咨询</span>
+            </p>
+            <p style="text-align:center;line-height:2.1em;"><span style="font-size:18px;">最新</span><span style="color:#2C8FEA;font-size:18px;">刘女士 152****3638</span><span style="font-size:18px;">发起咨询</span>
+            </p>
+            <p style="text-align:center;line-height:2.1em;"><span style="font-size:18px;">最新</span><span style="color:#2C8FEA;font-size:18px;">张先生 152****3696</span><span style="font-size:18px;">发起咨询</span>
+            </p>
+            <p style="text-align:center;line-height:2.1em;"><span style="font-size:18px;">最新</span><span style="color:#2C8FEA;font-size:18px;">李小姐 131****1256</span><span style="font-size:18px;">发起咨询</span>
+            </p>
+            <p style="text-align:center;line-height:2.1em;"><span style="font-size:18px;">最新</span><span style="color:#2C8FEA;font-size:18px;">王女士 131****1554</span><span style="font-size:18px;">发起咨询</span>
+            </p>
+            <p style="text-align:center;line-height:2.1em;"><span style="font-size:18px;">最新</span><span style="color:#2C8FEA;font-size:18px;">沈先生 158****1956</span><span style="font-size:18px;">发起咨询</span>
+            </p>
+            <p style="text-align:center;line-height:2.1em;"><span style="font-size:18px;">最新</span><span style="color:#2C8FEA;font-size:18px;">苏女士 180****1456</span><span style="font-size:18px;">发起咨询</span>
+            </p>
+            <p style="text-align:center;line-height:2.1em;"><span style="font-size:18px;">最新</span><span style="color:#2C8FEA;font-size:18px;">宋先生 180****2356</span><span style="font-size:18px;">发起咨询</span>
+            </p>
+            <p style="text-align:center;line-height:2.1em;"><span style="font-size:18px;">最新</span><span style="color:#2C8FEA;font-size:18px;">何先生 150****4526</span><span style="font-size:18px;">发起咨询</span>
+            </p>
+            <p style="text-align:center;line-height:2.1em;"><span style="font-size:18px;">最新</span><span style="color:#2C8FEA;font-size:18px;">刘女士 152****3638</span><span style="font-size:18px;">发起咨询</span>
+            </p>
+            <p style="text-align:center;line-height:2.1em;"><span style="font-size:18px;"></span></p>
+            <p style="line-height:2.1em;text-align:center;"><span style="font-size:18px;">最新</span><span style="color:#2C8FEA;font-size:18px;">李小姐 131****1256</span><span style="font-size:18px;">发起咨询</span>
+            </p>
+            <p style="line-height:2.1em;text-align:center;"><span style="font-size:18px;">最新</span><span style="color:#2C8FEA;font-size:18px;">王女士 131****1554</span><span style="font-size:18px;">发起咨询</span>
+            </p>
+            <p style="line-height:2.1em;text-align:center;"><span style="font-size:18px;">最新</span><span style="color:#2C8FEA;font-size:18px;">沈先生 158****1956</span><span style="font-size:18px;">发起咨询</span>
+            </p>
+            <p style="line-height:2.1em;text-align:center;"><span style="font-size:18px;">最新</span><span style="color:#2C8FEA;font-size:18px;">苏女士 180****1456</span><span style="font-size:18px;">发起咨询</span>
+            </p>
+            <p style="line-height:2.1em;text-align:center;"><span style="font-size:18px;">最新</span><span style="color:#2C8FEA;font-size:18px;">宋先生 180****2356</span><span style="font-size:18px;">发起咨询</span>
+            </p>
+            <p style="line-height:2.1em;text-align:center;"><span style="font-size:18px;">最新</span><span style="color:#2C8FEA;font-size:18px;">何先生 150****4526</span><span style="font-size:18px;">发起咨询</span>
+            </p>
+            <p style="line-height:2.1em;text-align:center;"><span style="font-size:18px;">最新</span><span style="color:#2C8FEA;font-size:18px;">刘女士 152****3638</span><span style="font-size:18px;">发起咨询</span>
+            </p>
+            <p style="line-height:2.1em;text-align:center;"><span style="font-size:18px;">最新</span><span style="color:#2C8FEA;font-size:18px;">张先生 152****3696</span><span style="font-size:18px;">发起咨询</span>
+            </p>
+            <p style="line-height:2.1em;text-align:center;"><span style="font-size:18px;">最新</span><span style="color:#2C8FEA;font-size:18px;">李小姐 131****1256</span><span style="font-size:18px;">发起咨询</span>
+            </p>
+            <p style="line-height:2.1em;text-align:center;"><span style="font-size:18px;">最新</span><span style="color:#2C8FEA;font-size:18px;">王女士 131****1554</span><span style="font-size:18px;">发起咨询</span>
+            </p>
+            <p style="line-height:2.1em;text-align:center;"><span style="font-size:18px;">最新</span><span style="color:#2C8FEA;font-size:18px;">沈先生 158****1956</span><span style="font-size:18px;">发起咨询</span>
+            </p>
+            <p style="line-height:2.1em;text-align:center;"><span style="font-size:18px;">最新</span><span style="color:#2C8FEA;font-size:18px;">苏女士 180****1456</span><span style="font-size:18px;">发起咨询</span>
+            </p>
+            <p style="line-height:2.1em;text-align:center;"><span style="font-size:18px;">最新</span><span style="color:#2C8FEA;font-size:18px;">宋先生 180****2356</span><span style="font-size:18px;">发起咨询</span>
+            </p>
+            <p style="line-height:2.1em;text-align:center;"><span style="font-size:18px;">最新</span><span style="color:#2C8FEA;font-size:18px;">何先生 150****4526</span><span style="font-size:18px;">发起咨询</span>
+            </p>
+            <p style="line-height:2.1em;text-align:center;"><span style="font-size:18px;">最新</span><span style="color:#2C8FEA;font-size:18px;">刘女士 152****3638</span><span style="font-size:18px;">发起咨询</span>
+            </p>
+            <p style="text-align:center;line-height:2.1em;">
+                <span style="font-size:18px;">最新</span>
+                <span style="color:#2C8FEA;font-size:18px;">李小姐 131****1256</span>
+                <span style="font-size:18px;">发起咨询</span></p>
+            <p style="text-align:center;line-height:2.1em;"><span style="font-size:18px;">最新</span><span style="color:#2C8FEA;font-size:18px;">王女士 131****1554</span><span style="font-size:18px;">发起咨询</span>
+            </p>
+            <p style="text-align:center;line-height:2.1em;"><span style="font-size:18px;">最新</span><span style="color:#2C8FEA;font-size:18px;">沈先生 158****1956</span><span style="font-size:18px;">发起咨询</span>
+            </p>
+            <p style="text-align:center;line-height:2.1em;"><span style="font-size:18px;">最新</span><span style="color:#2C8FEA;font-size:18px;">苏女士 180****1456</span><span style="font-size:18px;">发起咨询</span>
+            </p>
+            <p style="text-align:center;line-height:2.1em;"><span style="font-size:18px;">最新</span><span style="color:#2C8FEA;font-size:18px;">宋先生 180****2356</span><span style="font-size:18px;">发起咨询</span>
+            </p>
+            <p style="text-align:center;line-height:2.1em;"><span style="font-size:18px;">最新</span><span style="color:#2C8FEA;font-size:18px;">何先生 150****4526</span><span style="font-size:18px;">发起咨询</span>
+            </p>
+            <p style="text-align:center;line-height:2.1em;"><span style="font-size:18px;">最新</span><span style="color:#2C8FEA;font-size:18px;">刘女士 152****3638</span><span style="font-size:18px;">发起咨询</span>
+            </p>
+            <p style="text-align:center;line-height:2.1em;"><span style="font-size:18px;">最新</span><span style="color:#2C8FEA;font-size:18px;">张先生 152****3696</span><span style="font-size:18px;">发起咨询</span>
+            </p>
+            <p style="text-align:center;line-height:2.1em;"><span style="font-size:18px;">最新</span><span style="color:#2C8FEA;font-size:18px;">李小姐 131****1256</span><span style="font-size:18px;">发起咨询</span>
+            </p>
+            <p style="text-align:center;line-height:2.1em;"><span style="font-size:18px;">最新</span><span style="color:#2C8FEA;font-size:18px;">王女士 131****1554</span><span style="font-size:18px;">发起咨询</span>
+            </p>
+            <p style="text-align:center;line-height:2.1em;"><span style="font-size:18px;">最新</span><span style="color:#2C8FEA;font-size:18px;">沈先生 158****1956</span><span style="font-size:18px;">发起咨询</span>
+            </p>
+            <p style="text-align:center;line-height:2.1em;"><span style="font-size:18px;">最新</span><span style="color:#2C8FEA;font-size:18px;">苏女士 180****1456</span><span style="font-size:18px;">发起咨询</span>
+            </p>
+            <p style="text-align:center;line-height:2.1em;"><span style="font-size:18px;">最新</span><span style="color:#2C8FEA;font-size:18px;">宋先生 180****2356</span><span style="font-size:18px;">发起咨询</span>
+            </p>
+            <p style="text-align:center;line-height:2.1em;"><span style="font-size:18px;">最新</span><span style="color:#2C8FEA;font-size:18px;">何先生 150****4526</span><span style="font-size:18px;">发起咨询</span>
+            </p>
+            <p style="text-align:center;line-height:2.1em;"><span style="font-size:18px;">最新</span><span style="color:#2C8FEA;font-size:18px;">刘女士 152****3638</span><span style="font-size:18px;">发起咨询</span>
+            </p>
+            <p style="text-align:center;line-height:2.1em;"><span style="font-size:18px;"></span></p>
+            <p style="line-height:2.1em;text-align:center;"><span style="font-size:18px;">最新</span><span style="color:#2C8FEA;font-size:18px;">李小姐 131****1256</span><span style="font-size:18px;">发起咨询</span>
+            </p>
+            <p style="line-height:2.1em;text-align:center;"><span style="font-size:18px;">最新</span><span style="color:#2C8FEA;font-size:18px;">王女士 131****1554</span><span style="font-size:18px;">发起咨询</span>
+            </p>
+            <p style="line-height:2.1em;text-align:center;"><span style="font-size:18px;">最新</span><span style="color:#2C8FEA;font-size:18px;">沈先生 158****1956</span><span style="font-size:18px;">发起咨询</span>
+            </p>
+            <p style="line-height:2.1em;text-align:center;"><span style="font-size:18px;">最新</span><span style="color:#2C8FEA;font-size:18px;">苏女士 180****1456</span><span style="font-size:18px;">发起咨询</span>
+            </p>
+            <p style="line-height:2.1em;text-align:center;"><span style="font-size:18px;">最新</span><span style="color:#2C8FEA;font-size:18px;">宋先生 180****2356</span><span style="font-size:18px;">发起咨询</span>
+            </p>
+            <p style="line-height:2.1em;text-align:center;"><span style="font-size:18px;">最新</span><span style="color:#2C8FEA;font-size:18px;">何先生 150****4526</span><span style="font-size:18px;">发起咨询</span>
+            </p>
+            <p style="line-height:2.1em;text-align:center;"><span style="font-size:18px;">最新</span><span style="color:#2C8FEA;font-size:18px;">刘女士 152****3638</span><span style="font-size:18px;">发起咨询</span>
+            </p>
+            <p style="line-height:2.1em;text-align:center;"><span style="font-size:18px;">最新</span><span style="color:#2C8FEA;font-size:18px;">张先生 152****3696</span><span style="font-size:18px;">发起咨询</span>
+            </p>
+            <p style="line-height:2.1em;text-align:center;"><span style="font-size:18px;">最新</span><span style="color:#2C8FEA;font-size:18px;">李小姐 131****1256</span><span style="font-size:18px;">发起咨询</span>
+            </p>
+            <p style="line-height:2.1em;text-align:center;"><span style="font-size:18px;">最新</span><span style="color:#2C8FEA;font-size:18px;">王女士 131****1554</span><span style="font-size:18px;">发起咨询</span>
+            </p>
+            <p style="line-height:2.1em;text-align:center;"><span style="font-size:18px;">最新</span><span style="color:#2C8FEA;font-size:18px;">沈先生 158****1956</span><span style="font-size:18px;">发起咨询</span>
+            </p>
+            <p style="line-height:2.1em;text-align:center;"><span style="font-size:18px;">最新</span><span style="color:#2C8FEA;font-size:18px;">苏女士 180****1456</span><span style="font-size:18px;">发起咨询</span>
+            </p>
+            <p style="line-height:2.1em;text-align:center;"><span style="font-size:18px;">最新</span><span style="color:#2C8FEA;font-size:18px;">宋先生 180****2356</span><span style="font-size:18px;">发起咨询</span>
+            </p>
+            <p style="line-height:2.1em;text-align:center;"><span style="font-size:18px;">最新</span><span style="color:#2C8FEA;font-size:18px;">何先生 150****4526</span><span style="font-size:18px;">发起咨询</span>
+            </p>
+            <p style="line-height:2.1em;text-align:center;"><span style="font-size:18px;">最新</span><span style="color:#2C8FEA;font-size:18px;">刘女士 152****3638</span><span style="font-size:18px;">发起咨询</span>
+            </p></div>
+    </div>
+    <audio src="music/Lil笑笑%20-%20山茶花读不懂白玫瑰.mp3" controls autoplay loop style="position: relative;right: -600px"></audio>
+
+    <div class="contact" style="width: 110px;height: 79px;background: #6696FF;border-radius: 5px;position: fixed;text-align: center;z-index: 1;top: 300px;left: 1580px;">
+        <div style="width: 85px;height: 21px;font-size: 12px;color: white;">
+            <div style="width: 64px;height: 21px;position: absolute;left: 30px;top: 10px;">在线咨询</div>
+        </div>
+        <div style="width: 85px;height: 34px;position: absolute;background: #d9d9d9;top: 37px;left: 10px;text-align: center">
+            <span style="width: 50px;height: 16px;font-size:12px ;color: #666666" >点击咨询</span>
+        </div>
+    </div>
+
+
+
+</div>
+
+<div class="totop">
+        <embed src="images/02.png">
+    </div>
+<div style="width: 100%;height: 230px;background: rgb(44, 143, 234);position: relative;">
+        <div style="width: 900px;height: 230px;position: relative;margin: 0 auto 0">
+            <div style="width: 640px;height: 40px;position: relative;font-size:14px;color: #D3eaf4 ;margin: auto">
+                <a style="text-decoration: none" href="index.html">首页</a>
+                <a style="text-decoration: none" href="index.html">关于我们</a>
+                <a style="text-decoration: none" href="index.html">产品中心</a>
+                <a style="text-decoration: none" href="index.html">加入我们</a>
+                <a style="text-decoration: none" href="index.html">合作加盟</a>
+                <a style="text-decoration: none" href="index.html">资质证书</a>
+                <a style="text-decoration: none" href="index.html">新闻资讯</a>
+                <a style="text-decoration: none" href="index.html">联系我们</a>
+            </div>
+            <br>
+
+            <div style="width: 425px;height: 27px;font-size: 10px;color: #cdcdcd"><p>手机购物网 ©All rights reserved</p>
+                <p style="font-size: 10px;color: #cdcdcd"><a href="index.html">E-mail:cjgk2014@163.com</a></p>
+            </div>
+
+        </div>
+    </div>
+
+</body>
+</html>
+
+
+
+<script>
+    const uDiv = document.getElementById('uDiv');
+
+    const slideMove1 = (element) => {
+        const p = element.getElementsByTagName('p');//获取div下所有的p
+        element.innerHTML = element.innerHTML + element.innerHTML;//li下的内容进行想加
+        element.style.height = p[0].offsetHeight * p.length + 'px';//ul的宽度等于每个li的宽度乘以所有li的长度
+        const speed = 2
+
+        //主方法
+        function move() {
+//如果上横向滚动了长度一半之后,回到初始位置
+            if (element.offsetTop < -element.offsetHeight / speed) {
+                element.style.top = '0'
+            }
+//如果向下横向滚动的距离大于0 就让他的位置回到一半
+            if (element.offsetTop > 0) {
+                element.style.top = -element.offsetHeight / speed + 'px';
+            }
+//oUl.style.left = oUl.offsetLeft-2+'px';//进行左横向滚动
+            element.style.top = element.offsetTop + speed + 'px';//进行上纵向滚动
+        }
+
+        //调用方法
+        let timer = setInterval(move, 50)
+        //鼠标指向的时候 暂停
+        element.onmouseover = function () {
+            clearInterval(timer);
+        }
+        //鼠标离开之后 继续滚动
+        element.onmouseout = function () {
+            timer = setInterval(move, 50)
+        }
+    }
+    slideMove1(uDiv);
+
+    let totop = document.querySelector('.totop')
+    // 页面滚动窗口监听事件
+    window.onscroll = function () {
+        // 获取浏览器卷去的高度
+        let high = document.documentElement.scrollTop || document.body.scrollTop
+        if (high >= 200) {
+            totop.style.display = 'block'
+        } else {
+            totop.style.display = 'none'
+        }
+    }
+    totop.addEventListener('click', () => {
+        document.documentElement.scrollTop = 0
+        document.body.scrollTop = 0
+    })
+</script>
+
+
